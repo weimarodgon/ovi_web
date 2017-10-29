@@ -1,0 +1,67 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+		 margin: auto;
+		width: 1100px;
+		font-family: arial, Helvetica
+}
+
+ul, ol{
+		list-style: none;
+}
+
+.menu li a{font-size: 20px}
+
+
+.menu li a{
+		background-color: #000;
+		color: #fff;
+		text-decoration: none;
+		padding: 10px 15px;
+		display:block;
+}
+
+
+.menu > li{
+		float:left;
+}
+
+
+.menu li a:hover {
+		background-color: #434343;
+}
+
+
+.menu li ul {
+		display:none;
+		position: absolute;
+		min-width: 140px;
+}
+
+.menu li:hover > ul{
+ 		display: block;
+}
+.menu li ul li {
+		position: relative;
+}
+
+.menu li ul li {
+		position:relative;
+}	
+.menu li ul li ul {
+		right:-140px;
+		top: 0px; 
+}
+
+
+body{
+		background: url(../images/fondo.jpg);
+		color:#FFF; /* # FFF color blanco */
+		/*font-family: “Chalet”, Helvetica, Verdana;*/
+		font-size: 2em;
+}
+
